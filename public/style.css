@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #C1B5AD;
+}
+
+#map {
+  height: 100vh;
+  width: 100vw;
+  z-index: 0;
+  flex-grow: 3;
+}
+
+.header {
+  background-color: red;
+  height: 100px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  z-index: 100;
+}
+
+.container {
+
+}
+
+.sideContainer {
+  display: flex;
+  justify-content: flex-end;
+
+
+
+}
+
+.side_bar {
+  background-color: blue;
+  width: 300px;
+  height: 100vh;
+  top: 0;
+  flex-shrink: 1;
+  position: absolute;
+  z-index: 99;
+
+  display: flex;
+ padding-top: 100px;
+
+}
+
+
+.selectActivity{
+  align-self: flex-start;
+  border: solid 2px black;
+  width: 100%;
+
+}
+
+.itinerary{
+  align-self: flex-end;
+  border: solid 2px black;
+
+}
